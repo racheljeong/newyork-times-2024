@@ -1,0 +1,24 @@
+
+
+.notFoundContainer {
+    width: 90vw; 
+    height: 70vh; 
+    /* 화면크기 고정값 수정 필요 */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+    color: #d63031;
+    text-align: center;
+    font-size: 42px;
+}
+
+.msg {
+    color: #130f40;
+    text-align: center;
+    font-size: 24px;
+}

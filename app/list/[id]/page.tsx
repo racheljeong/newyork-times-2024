@@ -1,25 +1,21 @@
-//카테고리 별 리스트 뿌리기
-
 import { Suspense } from "react";
-import EachBook from "../../../components/eachBook";
+import CategoryBooks from "../../../components/categoryBooks";
 
 
+    export default async function BookList({
+        params : {id}
+    } : {
+        params : {id : string}
+    }){
+        console.log(`BookList.id`,id);
 
-
-export default async function BookList({
-    params : {id}
-} : {
-    params : {id : string}
-}){
-    console.log(`BookList.id`,id);
-
-    return (
-        <div>
-            <Suspense>
-                <EachBook id={id} />
-            </Suspense>
-        </div>
-    );
+        return (
+            <div>
+                <Suspense>
+                    <CategoryBooks id={id} />
+                </Suspense>
+            </div>
+        );
 
 
 }

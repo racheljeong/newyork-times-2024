@@ -1,0 +1,16 @@
+
+.listTitle {
+    text-align: center;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px #6c5ce7;
+    color: aliceblue;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.listContainer {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+
+}

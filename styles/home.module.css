@@ -1,0 +1,42 @@
+.mainContainer {
+    display: grid;
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  margin: 10px;
+}
+
+.eachItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid darkgrey; 
+  /* padding: 10px; */
+  margin: 10px;
+  font-size: 24px;
+  
+}
+.eachItem:hover {
+  color: aliceblue;   
+  text-shadow: 2px 2px 4px #130f40;
+}
+
+.eachItemLink {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.eachItemIcon {
+  margin-top: 5px;
+  padding-right: 5px;
+}
