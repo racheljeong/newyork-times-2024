@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import CategoryBooks from "../../../components/categoryBooks";
+import Loading from "../../../components/loading";
 
 
     export default async function BookList({
@@ -10,7 +11,7 @@ import CategoryBooks from "../../../components/categoryBooks";
 
         return (
             <div>
-                <Suspense>
+                <Suspense fallback={<Loading />}>
                     <CategoryBooks id={id} />
                 </Suspense>
             </div>
