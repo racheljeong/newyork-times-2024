@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import styles from "../styles/notFound.module.css";
+import styles from "../styles/etc.module.css";
 
 export const metadata: Metadata = {
   title: "Not found",
@@ -10,7 +10,7 @@ export default function NotFound() {
     <div className={styles.notFoundContainer}>
       <h1 className={styles.title}>Not found</h1>
       <span className={styles.msg}>
-        Sorry for any inconvenience. 
+        Sorry for any inconvenience. <br/>
         It seems like you've navigated to the wrong path. 
         Please check the URL or return to the Home
       </span>

@@ -10,9 +10,9 @@
 .eachContainer {
     display: flex;
     flex-direction: column;
-    max-width: 200px; 
-    height: 300px;
-    margin: 20px;
+    max-width: 270px; 
+    height: 330px;
+    margin: 10px;
     padding: 10px;
     background-color:#f5f6fa;
     align-items: center;
@@ -23,10 +23,12 @@
 
 .bookTitle {
     text-align: center;
-    font-size: 24px;
+    font-size: 27px;
     color: #341f97;
     font-weight: bold;
+    margin-bottom: 5px;
 }
+
 .bookTitle:hover {
     text-shadow: 2px 2px 4px #6e6a98;
     cursor: pointer;
@@ -36,17 +38,16 @@
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    margin: 5px;
+    margin: 10px;
 }
 
 .description {
     display: -webkit-box;
-    -webkit-line-clamp: 2; /* 최대 표시 줄 수 */
     -webkit-box-orient: vertical;
-    overflow:hidden;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
     text-overflow: ellipsis;
-    word-wrap : break-word; 
-    margin-top: 5px;
+    word-wrap: break-word; 
 }
 
 

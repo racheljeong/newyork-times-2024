@@ -23,7 +23,7 @@ export default function Navigation() {
           <Link href="/">Home</Link>
         </span>
         <span className={styles.navList}>
-          <Link href="/about-us">About</Link>
+          <Link href="/about">About</Link>
         </span>
        </div> 
     </nav>
