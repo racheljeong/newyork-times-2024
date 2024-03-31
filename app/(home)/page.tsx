@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "../../styles/home.module.css";
 
-export const BOOKS_API_URL = `https://books-api.nomadcoders.workers.dev/lists`;
+const BOOKS_API_URL = `https://books-api.nomadcoders.workers.dev/lists`;
 
 async function getBooks() {
 

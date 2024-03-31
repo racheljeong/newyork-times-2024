@@ -7,7 +7,6 @@ import CategoryBooks from "../../../components/categoryBooks";
     } : {
         params : {id : string}
     }){
-        console.log(`BookList.id`,id);
 
         return (
             <div>

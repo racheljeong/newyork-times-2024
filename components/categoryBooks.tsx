@@ -10,9 +10,9 @@ export async function getBook(id : string) {
 
 export default async function CategoryBooks({id} : {id :string}) {
     const oneCategory = await getBook(id);
-    console.log(`oneCategory`, oneCategory);
+    //console.log(`oneCategory`, oneCategory);
     const oneCategoryBook = oneCategory.results;
-    console.log(`eachBook`, oneCategoryBook);
+    //console.log(`eachBook`, oneCategoryBook);
     //const [oneBook, setOneBook] = useState(null);
 
     return (
